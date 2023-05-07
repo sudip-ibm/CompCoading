@@ -1,7 +1,6 @@
 //Array rotation Methid 1 (Rotate one by one)
 //Code by- Sudip Roy
 
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -18,7 +17,6 @@ void rotateElement(int arr[], int n)
     {
         arr[i]=arr[i+1];
     }
-
     arr[n-1]=temp;
 }
 
