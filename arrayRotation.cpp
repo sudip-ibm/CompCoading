@@ -42,7 +42,6 @@ int main()
 
     int diff; //rotate by dif elements
     cin>>diff;
-
     rotateArray(arr, n, diff);
     printArray(arr, n);
 }
